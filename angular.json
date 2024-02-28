@@ -26,6 +26,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
+              "src/browser",
               {
                 "glob": "**/*",
                 "input": "./node_modules/@kolkov/angular-editor/assets/",
@@ -138,6 +139,9 @@
               "src/assets/js/main.js"
             ]
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
